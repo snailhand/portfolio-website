@@ -269,6 +269,11 @@ body {
     color: transparent;
 }
 
+.section-title-yellow {
+    -webkit-text-stroke: 2px rgba(65, 76, 49, 0.3);
+    color: var(--highlight-color);
+}
+
 .hero-title {
     font-size: 238px;
     letter-spacing: 2.38px;
