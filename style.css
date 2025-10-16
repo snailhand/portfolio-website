@@ -290,6 +290,12 @@ body {
     letter-spacing: -1.5px;
 }
 
+.subtext {
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: var(--highlight-color)
+}
+
 .date-text {
     font-size: 18px;
     letter-spacing: 2.16px;
