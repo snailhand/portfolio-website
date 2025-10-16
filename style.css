@@ -2,6 +2,7 @@
     --primary-color: #414c31;
     --primary-subtle-color: #586642;
     --secondary-color: #C5BAA7;
+    --highlight-color: #F9C32C;
     --light-bg: #D9DACC;
     --light-bg-alt: #BDBBB7;
     --text-dark: #37342e;
@@ -240,8 +241,12 @@ body {
     background-color: var(--secondary-color);
 }
 
-.text-yellow {
+.text-secondary {
     color: var(--secondary-color);
+}
+
+.text-yellow{
+    color: var(--highlight-color);
 }
 
 .text-muted-custom {
@@ -389,12 +394,12 @@ body {
 .testimonialsSwiper {
     --swiper-pagination-color: #ffffff;
     --swiper-theme-color: #FFFFFF;
-    --swiper-pagination-bullet-inactive-color: #FFFFFF;
+    --swiper-pagination-bullet-inactive-color: #ffffff;
 }
 
 .swiper-pagination-bullet {
-    width: 26px;
-    height: 26px;
+    width: 18px;
+    height: 18px;
 }
 .swiper-button-next,
 .swiper-button-prev {
