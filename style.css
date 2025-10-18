@@ -5,6 +5,7 @@
     --highlight-color: #F9C32C;
     --light-bg: #D9DACC;
     --light-bg-alt: #BDBBB7;
+    --dark-bg: #AEACA3;
     --text-dark: #37342e;
     --text-light: #fdf5e1;
     --text-muted: #a09578;
@@ -308,7 +309,7 @@ body {
 }
 
 .btn-custom {
-    background-color: var(--light-bg-alt);
+    background-color: var(--dark-bg);
     /* border: 2px solid var(--text-dark); */
     /* border-radius: 9px; */
     padding: 23px 40px;
