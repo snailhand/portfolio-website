@@ -321,6 +321,20 @@ body {
     color: var(--text-light-alt);
 }
 
+.regular-text.list-unstyled li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.regular-text.list-unstyled li::before {
+    content: "•";
+    color: var(--highlight-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .date-text {
     font-size: 18px;
     letter-spacing: 2.16px;
