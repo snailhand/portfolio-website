@@ -308,10 +308,10 @@ body {
 }
 
 .btn-custom {
-    background-color: #fdd052;
-    border: 2px solid var(--text-dark);
-    border-radius: 9px;
-    padding: 23px 47px;
+    background-color: var(--light-bg);
+    /* border: 2px solid var(--text-dark); */
+    /* border-radius: 9px; */
+    padding: 23px 40px;
     font-weight: 700;
     font-size: 18px;
     transition: all 0.3s ease;
