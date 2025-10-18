@@ -308,7 +308,7 @@ body {
 }
 
 .btn-custom {
-    background-color: var(--light-bg);
+    background-color: var(--light-bg-alt);
     /* border: 2px solid var(--text-dark); */
     /* border-radius: 9px; */
     padding: 23px 40px;
@@ -320,6 +320,11 @@ body {
 .btn-custom:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-size-small {
+    padding: 12px 24px !important;
+    font-size: 14px !important;
 }
 
 .form-control-custom {
