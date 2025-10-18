@@ -8,6 +8,7 @@
     --dark-bg: #AEACA3;
     --text-dark: #37342e;
     --text-light: #fdf5e1;
+    --text-light-alt: #E9EBD1;
     --text-muted: #a09578;
 }
 
@@ -289,6 +290,12 @@ body {
 .content-title {
     font-size: 69px;
     letter-spacing: -3.45px;
+}
+
+.content-subtitle {
+    font-size: 69px;
+    letter-spacing: -3.45px;
+    color: var(--text-light-alt);
 }
 
 .subtitle {
