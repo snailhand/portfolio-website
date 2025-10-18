@@ -280,6 +280,11 @@ body {
     line-height: 0.8em;
 }
 
+.card-title {
+    font-size: 63px;
+    letter-spacing: -3.45px;
+}
+
 .hero-bg-text {
     -webkit-text-stroke: 2px rgba(226, 219, 201, 0.3);
     color: transparent;
