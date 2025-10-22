@@ -384,28 +384,29 @@ body {
 
 .experience-section {
     transition: all 0.3s ease;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
     margin: 0 -5px;
 }
 
 .experience-section:hover {
-    background-color: rgba(255, 203, 60, 0.1);
-    transform: translateX(10px);
-    box-shadow: 0 5px 15px rgba(249, 195, 44, 0.2);
+    background-color: var(--primary-color);
+    transform: translateX(30px);
+    translate: 30px;
+    box-shadow: 0 5px 20px rgba(249, 194, 44, 0.5);
 }
 
 .education-section {
     transition: all 0.3s ease;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 0 -5px;
 }
 
 .education-section:hover {
-    background-color: rgba(249, 195, 44, 0.1);
-    transform: translateX(5px);
-    box-shadow: 0 5px 15px rgba(249, 195, 44, 0.2);
+    background-color: var(--primary-color);
+    transform: translateX(-30px);
+    box-shadow: 0 5px 15px rgba(249, 195, 44, 0.5);
 }
 
 .card-img-top {
