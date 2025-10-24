@@ -406,7 +406,8 @@ body {
 .education-section:hover {
     background-color: var(--primary-color);
     transform: translateX(-30px);
-    box-shadow: 0 5px 15px rgba(249, 195, 44, 0.5);
+    translate: -30px;
+    box-shadow: 0 5px 20px rgba(249, 195, 44, 0.5);
 }
 
 .card-img-top {
